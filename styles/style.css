@@ -1,17 +1,30 @@
 * {
 	line-height: 2;
+	font-family: 'Muli', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
 }
 .offset {
 	margin-top: 6rem !important;
 }
-
 .container-fluid {
 	padding: 0 5rem !important;
+}
+
+#inner {
+	padding: 0 !important;
 }
 p,
 label {
 	font-size: 14px;
 	color: #5b5b5b;
+}
+h1 {
+	font-size: 2rem;
 }
 h2 {
 	font-size: 24px;
@@ -115,11 +128,14 @@ h2 {
 	width: 150px;
 	height: 150px;
 }
-
+.box-in {
+	width: 50%;
+}
 #pages {
 	background-color: #f9f9f9;
+	padding-top: 3rem !important;
+	padding-bottom: 3rem !important;
 }
-
 /* ====== FORM ======= */
 .form {
 	height: 70px !important;
@@ -138,13 +154,14 @@ h2 {
 .blog-img {
 	height: 5rem;
 }
-
+/* ====== FOOTER ======= */
 .footer {
 	background-color: #0052ff;
 	color: white;
+	font-size: small;
 }
 
-/* ====== RESPONSIVE ======= */
+/* ====== RESPONSIVE BREAKPOINTS ======= */
 @media screen and (max-width: 768px) {
 	.navigation {
 		padding: 0 2.5rem !important;
@@ -152,13 +169,15 @@ h2 {
 	.container-fluid {
 		padding: 0 2.5rem !important;
 	}
+	h1 {
+		font-size: 1.5rem;
+	}
 	h2 {
 		font-size: 20px;
 	}
 	.form {
 		height: 55px !important;
 		padding: 1rem 1.1rem !important;
-		font-size: 12px;
 	}
 }
 
@@ -224,5 +243,8 @@ h2 {
 	.navbar {
 		padding-top: 0.5rem !important;
 		padding-bottom: 0.5rem !important;
+	}
+	.box-in {
+		width: 100%;
 	}
 }
