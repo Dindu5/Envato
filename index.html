@@ -72,7 +72,7 @@
     
     <section class="container-fluid offset py-5 my-5" id="about">
         <div class="row mx-auto text-center box-in">
-            <h2 class="mx-auto my-2" data-aos="fade-down">Who we are</h2>
+            <h2 class="mx-auto my-2">Who we are</h2>
             <p class="my-3" data-aos="fade-down" aos-delay="500">
                 The one-stop medical studio known around the world for our excellence in providing 
                 the best care and treatments for your teeth and general dental lifestyle. Dentlab is 
@@ -100,9 +100,9 @@
                
                 <div class="row my-1">
                     <div class="col-12">
-                        <h2 class="my-2" data-aos="fade-down">Our Services</h2>
+                        <h2 class="my-2">Our Services</h2>
                     </div>
-                    <div class="col-lg-7 col-sm-6" data-aos="fade-left">
+                    <div class="col-lg-7 col-sm-6">
                         <span class="d-flex my-lg-2 my-2"><img src="assets/Rectangle 24.svg" class="mr-1" alt=""><small>Teeth Whitening</small></span>
                         <span class="d-flex my-lg-2 my-2"><img src="assets/Rectangle 24.svg" class="mr-1" alt=""><small>Brace fix</small></span>
                         <span class="d-flex my-lg-2 my-2"><img src="assets/Rectangle 24.svg" class="mr-1" alt=""><small>Cavity Filling</small></span>
@@ -112,7 +112,7 @@
                         <span class="d-flex my-lg-2 my-2"><img src="assets/Rectangle 24.svg" class="mr-1" alt=""><small>Veneers</small></span>
                     </div>
 
-                    <div class="col-lg-5 col-sm-6 mt-md-0 mt-n2" data-aos="fade-left">
+                    <div class="col-lg-5 col-sm-6 mt-md-0 mt-n2">
                         <span class="d-flex my-lg-2 my-2"><img src="assets/Rectangle 24.svg" class="mr-1" alt=""><small>Dental Cosmetics</small></span>
                         <span class="d-flex my-lg-2 my-2"><img src="assets/Rectangle 24.svg" class="mr-1" alt=""><small>Teeth repair</small></span>
                         <span class="d-flex my-lg-2 my-2"><img src="assets/Rectangle 24.svg" class="mr-1" alt=""><small>Contouring</small></span>
@@ -131,7 +131,7 @@
     <!--  Start of Pages Section-->
 
     <section class="container-fluid text-center offset" id="pages">
-        <h2 class="pt-5 pb-2" data-aos="fade-in">What People are saying</h2>
+        <h2 class="pt-5 pb-2">What People are saying</h2>
         <div class="row pb-4">
             
             <div class="col-sm-4 py-3" data-aos="fade-down">
@@ -172,8 +172,8 @@
     <section class="container-fluid offset py-xs-1 p-md-5" id="contact">
         <div class="row">
             <div class="col-md-6 my-5">
-                <h2 data-aos="fade-right">Book an appointment</h2>
-                <p class="my-4" data-aos="fade-right">
+                <h2>Book an appointment</h2>
+                <p class="my-4">
                     Kindly fill the form and take note of our opening hours below. 
                     You will recieve a reply within three hours of submitting
                 </p>
@@ -193,41 +193,41 @@
 
             </div>
             <div class="col-md-6 my-5">
-                
-                <form action="post">
+                <!-- Contact Form -->
+                <form action="post" data-aos="fade-left" aos-delay="300">
                     
-                    <div class="form-group" data-aos="fade-left">
+                    <div class="form-group">
                         <label for="name"><strong>Full Name</strong></label>
                         <input type="text" name="Full Name" id="name" class="form-control form" placeholder="" aria-describedby="helpId">
                     </div>
-                    <div class="form-group" data-aos="fade-left">
+                    <div class="form-group">
                         <label for="name"><strong>Email Address</strong></label>
                         <input type="email" name="Full Name" id="email" class="form-control form" placeholder="" aria-describedby="helpId">
                     </div>
                     
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="form-group" data-aos="fade-left">
+                            <div class="form-group">
                                 <label for="phone"><strong>Phone Number</strong></label>
                                 <input type="number" name="Full Name" id="phone" class="form-control form" placeholder="" aria-describedby="helpId">
                             </div>
                         </div>
                         <div class="col-md-6">
                             
-                            <div class="form-group" data-aos="fade-left" aos-delay="300">
+                            <div class="form-group">
                                 <label for=""><strong>Reason for appointment</strong></label>
-                                <select class="form-control form" name="" id="select">
-                                <option>Teeth Whitening</option>
-                                <option>Brace fix</option>
-                                <option>Cavity Filling</option>
-                                <option>Dental bridges</option>
-                                <option>Preventive dental care</option>
-                                <option>Veneers</option>
-                                <option>Dental Cosmetics</option>
-                                <option>Teeth repair</option>        
-                                <option>Cavity Filling</option>
-                                <option>Contouring</option>
-                                <option>Root Treatment</option>
+                                <select class="form-control form" id="select">
+                                    <option>Teeth Whitening</option>
+                                    <option>Brace fix</option>
+                                    <option>Cavity Filling</option>
+                                    <option>Dental bridges</option>
+                                    <option>Preventive dental care</option>
+                                    <option>Veneers</option>
+                                    <option>Dental Cosmetics</option>
+                                    <option>Teeth repair</option>        
+                                    <option>Cavity Filling</option>
+                                    <option>Contouring</option>
+                                    <option>Root Treatment</option>
                                 </select>
                             </div>
                             
@@ -236,13 +236,13 @@
                     
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="form-group" data-aos="fade-left">
+                                <div class="form-group">
                                     <label for="name"><strong>Date</strong></label>
                                     <input type="date" name="Full Name" id="date" class="form-control form" placeholder="" aria-describedby="helpId">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group" data-aos="fade-left" aos-delay="300">
+                                <div class="form-group">
                                     <label for="name"><strong>Time</strong></label>
                                     <input type="time" name="Full Name" id="time" class="form-control form" placeholder="" aria-describedby="helpId">
                                 </div>
@@ -251,12 +251,10 @@
                         </div>
                     <input type="submit" class="btn btn-primary my-3" value="Book appointment">
                 </form>
+                <!--End of Contact Form-->
             </div>
         </div>
     </section>
-
-    <!--  End of contact Section -->
-
 
     
 
@@ -289,6 +287,9 @@
             </div>
             <div class="col-md-4 my-3">
                 <p class="mb-4" data-aos="fade-down"><strong>Latest blog post</strong></p>
+
+                <!--Blog Posts-->
+
                 <div class="group d-flex my-lg-1 my-1" data-aos="fade-down">
                     <img src="assets/Rectangle 20.png" class="blog-img mr-3" alt="">
                     <div class="details">
@@ -310,6 +311,9 @@
                         <p class="text-secondary">26/06/2020</p>
                     </div>
                 </div>
+
+                <!--End of Blog Posts-->
+
             </div>
             <div class="col-md-4 my-3">
                 <p class="mb-3" data-aos="fade-down"><strong>Contact Us</strong></p>
@@ -317,10 +321,10 @@
                     <span class="my-2"><img src="assets/Facebook Places.png" class="mr-2" alt=""> <small>2278 Oak Street, New York</small></span>
                 </div>
                 <div class="contactgroup" data-aos="fade-down" aos-delay="500">
-                    <span class="my-2"><img src="assets/phone.png" class="mr-2" alt=""> <small>313-395-5325</small></span>
+                    <span class="my-2"><img src="assets/phone.png" class="mr-2" alt=""><small>313-395-5325</small></span>
                 </div>
                 <div class="contactgroup" data-aos="fade-down" aos-delay="500">
-                    <span class="my-2"><img src="assets/email.png" class="mr-2" alt="">  <small>hello@dentlab.com</small></span>
+                    <span class="my-2"><img src="assets/email.png" class="mr-2" alt=""><small>hello@dentlab.com</small></span>
                 </div>
             </div>
 
